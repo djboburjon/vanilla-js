@@ -85,3 +85,15 @@
     transform: translateX(-50%);
     transition: 0.5s ease;
 }
+
+@media (max-width: 760px) {
+    .slider-col p {
+        width: 80%;
+    }
+}
+
+@media (max-width: 630px) {
+    .slider-col p {
+        width: 64%;
+    }
+}
